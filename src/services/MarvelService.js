@@ -4,7 +4,6 @@ import {useHttp} from '../hooks/http.hook';
 const useMarvelService = () => {
     const {loading, request, error, clearError} = useHttp();
     const _apiBase = 'https://gateway.marvel.com:443/v1/public/',
-  
     _baseOffset = 210;
 
 
